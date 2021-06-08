@@ -1,0 +1,75 @@
+/*Inicio Navbar */
+.menu{
+    min-height: 125px;
+}
+.opcaomenu{
+    color: #4F5665;
+    
+}
+.opcaomenu:hover{
+    color: #4F5665;
+}
+.signup{
+    color: #F53855; 
+    border: solid 1px #F53855;
+    border-radius: 16px;
+    background-color: white;
+}
+/*Fim Navbar */
+ 
+
+/* Inicio banner*/
+.botaogetstarted{
+    background-color: #F53838;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px #F53838;
+    padding: 8px;
+    width: 29%;
+}
+/* Fim banner*/
+
+/*Inicio conteudo*/
+.circuloicone{
+    /* background-color: #FFECEC; */
+}
+.icones{
+    color: #F53838;
+    background-color: #FFECEC;
+    padding: 22px;
+    border-radius: 37px;
+}
+.nusuarios{
+    box-shadow: 0px 9px 22px -14px #0d1025;
+    align-items: center;
+    padding: 20px;
+    height: 145px;
+}
+.check{
+    background-color: #2FAB73;
+    color: white;
+    background-color: #2FAB73;
+    color: white;
+    padding: 4px;
+    border-radius: 15px;
+    font-size: 10px;
+}
+
+/*Área dos planos*/
+.planos{
+    text-align: center;
+    align-items: center;
+}
+.chamadaplanos{
+    text-align: center;
+
+}
+.checkplanos{
+    color: #2FAB73;
+    
+}
+.nomedoplano{
+    text-align: center;
+}
+/*Fim conteudo--> */
