@@ -1,75 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+:root {
+  --fonte_pequena: 1rem;
+  --fonte_media: 2rem;
+}
+
+/* font-family: 'Rubik', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /*Inicio Navbar */
-.menu{
-    min-height: 125px;
+.menu {
+  min-height: 125px;
 }
-.opcaomenu{
-    color: #4F5665;
-    
+.opcaomenu {
+  color: #4f5665;
+  font-size: 1rem;
+  font-weight: 500;
 }
-.opcaomenu:hover{
-    color: #4F5665;
+.opcaomenu:hover {
+  color: #4f5665;
 }
-.signup{
-    color: #F53855; 
-    border: solid 1px #F53855;
-    border-radius: 16px;
-    background-color: white;
+.signup {
+  color: #f53855;
+  border: solid 1px #f53855;
+  border-radius: 16px;
+  background-color: white;
+  padding: 5px 30px;
+  margin-left: 20px;
 }
 /*Fim Navbar */
- 
 
 /* Inicio banner*/
-.botaogetstarted{
-    background-color: #F53838;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 5px 10px 0px #F53838;
-    padding: 8px;
-    width: 29%;
+.botaogetstarted {
+  background-color: #f53838;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px #f53838;
+  padding: 8px;
+  width: 29%;
 }
 /* Fim banner*/
 
 /*Inicio conteudo*/
-.circuloicone{
-    /* background-color: #FFECEC; */
+.circuloicone {
+  /* background-color: #FFECEC; */
 }
-.icones{
-    color: #F53838;
-    background-color: #FFECEC;
-    padding: 22px;
-    border-radius: 37px;
+.icones {
+  color: #f53838;
+  background-color: #ffecec;
+  padding: 22px;
+  border-radius: 37px;
 }
-.nusuarios{
-    box-shadow: 0px 9px 22px -14px #0d1025;
-    align-items: center;
-    padding: 20px;
-    height: 145px;
+.nusuarios {
+  box-shadow: 0px 9px 22px -14px #0d1025;
+  align-items: center;
+  padding: 20px;
+  height: 145px;
 }
-.check{
-    background-color: #2FAB73;
-    color: white;
-    background-color: #2FAB73;
-    color: white;
-    padding: 4px;
-    border-radius: 15px;
-    font-size: 10px;
+.check {
+  background-color: #2fab73;
+  color: white;
+  background-color: #2fab73;
+  color: white;
+  padding: 4px;
+  border-radius: 15px;
+  font-size: 10px;
 }
 
 /*Área dos planos*/
-.planos{
-    text-align: center;
-    align-items: center;
+.planos {
+  text-align: center;
+  align-items: center;
 }
-.chamadaplanos{
-    text-align: center;
-
+.chamadaplanos {
+  text-align: center;
 }
-.checkplanos{
-    color: #2FAB73;
-    
+.checkplanos {
+  color: #2fab73;
 }
-.nomedoplano{
-    text-align: center;
+.nomedoplano {
+  text-align: center;
 }
 /*Fim conteudo--> */
