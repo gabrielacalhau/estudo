@@ -31,12 +31,15 @@
   background-color: white;
   padding: 5px 30px;
   margin-left: 20px;
+  font-weight: bold;
 }
 /*Fim Navbar */
 
 /* Inicio banner*/
 .botaogetstarted {
   background-color: #f53838;
+  font-size: 16px;
+  font-weight: bold;
   color: #ffffff;
   border: none;
   border-radius: 10px;
@@ -47,7 +50,7 @@
 /* Fim banner*/
 
 /*Inicio conteudo*/
-.circuloicone {
+.circuloicone{
   /* background-color: #FFECEC; */
 }
 .icones {
@@ -57,9 +60,8 @@
   border-radius: 37px;
 }
 .nusuarios {
-  box-shadow: 0px 9px 22px -14px #0d1025;
+  box-shadow: 0px 29px 89px -68px #0d1025;
   align-items: center;
-  padding: 20px;
   height: 145px;
 }
 .check {
@@ -71,11 +73,25 @@
   border-radius: 15px;
   font-size: 10px;
 }
-
+.imagemfestejar{
+  text-align: center;
+}
+.numeracao{
+  color: #0B132A;
+  font-size: 25px;
+  font-weight: bold;
+}
 /*Área dos planos*/
 .planos {
   text-align: center;
+  border: solid 2px #DDDDDD;
+  padding: 18px;
+  border-radius: 5px;
   align-items: center;
+  margin: 0px 10px 0px;
+}
+.topicosplanos{
+  min-height: 144px;
 }
 .chamadaplanos {
   text-align: center;
@@ -86,4 +102,58 @@
 .nomedoplano {
   text-align: center;
 }
+.select{
+  color: #f53855;
+  border: solid 1px #f53855;
+  border-radius: 16px;
+  background-color: white;
+  padding: 5px 30px;
+  font-weight: bold;
+}
+.vantagens{
+  font-weight: 14px;
+}
+.icon{
+  width: 30%;
+  float: left;
+}
+.descricao{
+  width: 70%;
+    float: left;
+}
+/*Fim Área dos planos*/
+/*Inicio sessão mapa*/
+.mapa{
+  width: 90%;
+}
+/*Fim sessão mapa*/
+
+/* Inicio card */
+.titulos{
+  font-size: 35px;
+}
+.imagemcard{
+  border-radius: 50%;
+}
+.iconeestrela{
+  color: #FEA250;
+}
+.name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.cidade{
+  font: 14px;
+}
+.caixacard{
+  border-radius: 13px;
+    align-items: center;
+    text-align: center;
+}
+.card{
+  min-height: 211px;
+  max-height: 215px;
+}
+/* Fim card */
+
 /*Fim conteudo--> */
