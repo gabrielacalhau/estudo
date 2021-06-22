@@ -51,7 +51,7 @@
 
 /*Inicio conteudo*/
 .circuloicone{
-  /* background-color: #FFECEC; */
+  background-color: #FFECEC;
 }
 .icones {
   color: #f53838;
@@ -123,6 +123,7 @@
 }
 /*Fim Área dos planos*/
 /*Inicio sessão mapa*/
+
 .mapa{
   width: 90%;
 }
